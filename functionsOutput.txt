@@ -1,0 +1,18 @@
+bash-3.2$ cd Documents/test2/
+bash-3.2$ bash functions.sh getSizeOfFile folder2 folder1 dirs.txt
+Size of file folder2: 224
+Size of file folder1: 224
+Size of file dirs.txt: 8
+bash-3.2$ bash functions.sh getListOfFilesInDir folder2
+folder4
+g.txt
+h.txt
+i.txt
+index.html
+/Users/dansajjad/Documents/test2
+bash-3.2$ bash functions.sh getListOfFilesInDir folder1
+a.txt
+b.txt
+c.txt
+folder3
+/Users/dansajjad/Documents/test2

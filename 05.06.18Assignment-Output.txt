@@ -1,0 +1,50 @@
+>>>> Create a script which sets several variables, and then unsets some of them.   
+My name is Dan                                                                     
+>>>> Demonstrate that the variables have been unset.                               
+My name is  | var2 has been unset                                                  
+>>>> Set a few constants.                                                          
+>>>> Attempt to change the values of the constant variables.                       
+sh: MY_FIRST_NAME: readonly variable                                               
+>>>> Attempt to unset constants.                                                   
+sh: unset: MY_FIRST_NAME: cannot unset: readonly variable                          
+>>>> CREATING ALIASES <<<<<                                                        
+>>> One must use a variable.  use the alias with different values for the variable 
+and demonstrate that changing the variable makes the alias work differently or prod
+uce a different result                                                             
+Today is sunny                                                                     
+Tomorrow will be windy                                                             
+>>> One alias must use a constant;  
+total 28                                                                           
+-rw-r--r-- 1 29630 29630  978 May  7 00:42 README.txt                              
+-rwxr-xr-x 1 29630 29630 1519 May  7 01:14 script.sh                               
+-rw-r--r-- 1 29630 29630   64 May  7 01:14 sameple.txt                             
+-rw-r--r-- 1 29630 29630  254 May  7 01:54 2script.sh                              
+-rw-r--r-- 1 29630 29630   90 May  7 02:09 sampleText.txt                          
+-rw-r--r-- 1 29630 29630 1841 May  7 02:09 output.txt                              
+-rw-r--r-- 1 29630 29630 1596 May  7 02:09 mynewscript.sh                          
+>>> One must use both a constant and a variable.                                   
+.:                                                                                 
+total 28                                                                           
+4 -rw-r--r-- 1 29630 29630 1841 May  7 02:09 output.txt                            
+4 -rw-r--r-- 1 29630 29630 1596 May  7 02:09 mynewscript.sh                        
+4 -rwxr-xr-x 1 29630 29630 1519 May  7 01:14 script.sh                             
+4 -rw-r--r-- 1 29630 29630  978 May  7 00:42 README.txt                            
+4 -rw-r--r-- 1 29630 29630  254 May  7 01:54 2script.sh                            
+4 -rw-r--r-- 1 29630 29630   90 May  7 02:09 sampleText.txt                        
+4 -rw-r--r-- 1 29630 29630   64 May  7 01:14 sameple.txt                           
+>>>> USING EXEC <<<<<<<<                                                           
+>>> Create a file with some text in it.                                            
+>>> Create a script which uses read to get input from a user in a loop.            
+>>> Use exec to redirect input from the file with the text in it.                  
+>>> Enter a sentence                                                               
+I like cats.                                                                       
+>>> Enter a sentence                                                               
+I like fast cars.                                                                  
+>>> Enter a sentence                                                               
+I swim.                                                                            
+>>> Enter a sentence                                                               
+The sun is out today.                                                              
+>>> Enter a sentence                                                               
+It will rain tomorrow.                                                             
+sh-4.4$                                                                            
+sh-4.4$ exit    
